@@ -1,0 +1,123 @@
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Helvetica;
+	color: #323232;
+	border: none;
+}
+h1 {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	color: yellow;
+}
+
+body {
+	background-image: url('../images/Carro_Lavacao_1.jpg');
+	background-size: cover;
+	background-position-y: -100px;
+	text-align: center;
+	
+
+}
+
+textarea:focus, input:focus {
+	outline: none;
+}
+
+a {
+}
+h2 {
+	color: red;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+h3 {
+	color: tomato;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+p{ color: magenta;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+
+	/* background-image: url("../images/Carro_Lavacacao_0.jpg" */
+}
+
+/*Container Login */
+
+#login-container {
+	background-color: rgb(0,0,0,1);
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px 30px;
+	margin-top: 10vh;
+	border-radius: 10px;
+	text-align: center;
+}
+
+/*Formulário */
+
+#form 
+{
+	margin-top: 30px;
+	margin-bottom: 40px;
+	
+
+}
+
+.container {
+	color: red;
+
+
+}
+ 
+
+
+label,input {
+	display: block;
+	width: 100%;
+	text-align: left;
+}
+
+label {
+	font-weight: bold;
+}
+
+input {
+	/*border-bottom: 2px solid magenta; */
+	border: 2px solid magenta;
+	padding: 10px;
+	font-size: 1rem;
+	margin-bottom: 20px;
+}
+
+input:focus {
+	/*border-bottom: 2px solid tomato; */
+	border: 2px solid tomato;
+}
+
+input[type="submit"] {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	border: none;
+	height: 40px;
+	border-radius: 20px;
+	margin-top: 30px;
+	color: #FFF;
+	background-color:  #08558B;
+	cursor: pointer;
+}
+
+
+
+
+
